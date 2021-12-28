@@ -50,4 +50,4 @@ LEFT OUTER JOIN doc_prod_num doc_prod_num3 ON doc_sku_name.doc_prod_num_id = doc
 LEFT OUTER JOIN doc_prod_num doc_prod_num4 ON doc_sku_name.doc_prod_num_id = doc_prod_num4.id
 LEFT OUTER JOIN doc_prod_hs_num ON doc_sku_name.doc_prod_num_id = doc_prod_hs_num.id
 WHERE doc_sku_name_id > '0' AND (type_fba_order_id = '1' OR type_fba_order_id = '5')
-ORDER BY doc_sku_namE_id ASC;
+ORDER BY doc_sku_namE_id ASC
